@@ -21,12 +21,12 @@ import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import java.text.DateFormat
 import java.util.Date
 import java.util.Locale
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
     private lateinit var root: LinearLayout
     private lateinit var list: LinearLayout
     private lateinit var search: EditText
