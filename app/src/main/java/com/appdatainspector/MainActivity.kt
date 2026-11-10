@@ -90,7 +90,7 @@ class MainActivity : Activity() {
 
         search = EditText(this).apply {
             hint = "Search app name or package"
-            singleLine = true
+            setSingleLine(true)
             setTextColor(0xFFFFFFFF.toInt())
             setHintTextColor(0xFF8795AD.toInt())
             setPadding(dp(12), 0, dp(12), 0)
